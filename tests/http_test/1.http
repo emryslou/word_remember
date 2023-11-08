@@ -1,0 +1,12 @@
+GET http://localhost:8000/api/v1/words?word=111&type_zh=333
+
+
+###
+POST http://localhost:8000/api/v1/reviews
+Content-Type: application/json
+
+{
+  "md_line": "1. [cc](cc) _*v.*_ aaaa",
+  "tag": "2022-04-01"
+}
+

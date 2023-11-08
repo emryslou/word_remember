@@ -1,0 +1,8 @@
+fastapi[all] <= 0.95
+uvicorn[standard]
+databases
+sqlalchemy <= 1.4
+aiosqlite
+alembic <= 1.8
+slowapi
+starlette-csrf
