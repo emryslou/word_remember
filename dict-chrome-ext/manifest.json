@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.cambridge.org/*"
+            ],
+            "js": [
+                "word.select.js"
+            ]
+        }
+    ],
+    "name": "剑桥英汉词典解析",
+    "description": "剑桥英汉词典解析",
+    "version": "1.0",
+    "action": {
+        "default_popup": "pop.html",
+        "default_icon": "ext_icon.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
